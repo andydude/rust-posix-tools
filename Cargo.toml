@@ -1,0 +1,21 @@
+[package]
+name = "posix-tools"
+version = "0.0.1"
+authors = ["Andrew Robbins <and_j_rob@yahoo.com>"]
+
+
+[[bin]]
+name = "wc"
+path = "src/bin/wc.rs"
+
+[[bin]]
+name = "basename"
+path = "src/bin/basename.rs"
+
+[[bin]]
+name = "dirname"
+path = "src/bin/dirname.rs"
+
+[[bin]]
+name = "xargs"
+path = "src/bin/xargs.rs"
